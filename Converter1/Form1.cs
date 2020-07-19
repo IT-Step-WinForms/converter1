@@ -39,7 +39,25 @@ namespace Converter1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                if (radioButton1.Checked)
+                {
+                    double f = double.Parse(textBox1.Text);
+                    double c = (f - 32) * 5 / 9;
+                    textBox2.Text = c.ToString("F");
+                }
+                else
+                {
+                    double c = double.Parse(textBox2.Text);
+                    double f = 32 + c * 1.8;
+                    textBox1.Text = f.ToString("F");
+                }
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show($"Ошибка выполнения:\n{err.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
