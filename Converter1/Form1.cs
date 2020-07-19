@@ -46,12 +46,14 @@ namespace Converter1
                     double f = double.Parse(textBox1.Text);
                     double c = (f - 32) * 5 / 9;
                     textBox2.Text = c.ToString("F");
+                    textBox3.Text += $"{f:F2} F = {c:F2} C \r\n";
                 }
                 else
                 {
                     double c = double.Parse(textBox2.Text);
                     double f = 32 + c * 1.8;
                     textBox1.Text = f.ToString("F");
+                    textBox3.Text += $"{c:F2} C = {f:F2} F \r\n";
                 }
             }
             catch (Exception err)
@@ -62,7 +64,8 @@ namespace Converter1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            textBox1.Clear();
+            textBox2.Clear();
         }
     }
 }
