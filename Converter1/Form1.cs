@@ -19,12 +19,22 @@ namespace Converter1
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton1.Checked == true)
+            {
+                textBox1.ReadOnly = false;
+                textBox1.Focus();
+                textBox2.ReadOnly = true;
+            }
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radioButton2.Checked == true)
+            {
+                textBox2.ReadOnly = false;
+                textBox2.Focus();
+                textBox1.ReadOnly = true;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
