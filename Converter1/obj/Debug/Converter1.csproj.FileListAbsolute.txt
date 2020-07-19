@@ -1,0 +1,10 @@
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\bin\Debug\Converter1.exe.config
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\bin\Debug\Converter1.exe
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\bin\Debug\Converter1.pdb
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\obj\Debug\Converter1.csprojAssemblyReference.cache
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\obj\Debug\Converter1.Form1.resources
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\obj\Debug\Converter1.Properties.Resources.resources
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\obj\Debug\Converter1.csproj.GenerateResource.cache
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\obj\Debug\Converter1.csproj.CoreCompileInputs.cache
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\obj\Debug\Converter1.exe
+C:\Cloud\Google Drive\Pavlo\09-WinForms\Classwork\02\Converter1\Converter1\obj\Debug\Converter1.pdb
